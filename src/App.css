@@ -1,0 +1,1201 @@
+            @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Poppins&family=Roboto&family=Roboto+Slab:wght@300;400;700&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Manrope:wght@500;600;700;800&family=Poppins&family=Roboto&family=Roboto+Slab:wght@300;400;700&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Manrope:wght@500;600;700;800&family=Mulish:wght@700&family=Poppins&family=Roboto&family=Roboto+Slab:wght@300;400;700&display=swap');
+            * {
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+                font-family: 'Manrope', sans-serif;
+            }
+            
+            h1 {
+                font-weight: 600;
+                font-size: 19px;
+                line-height: 32.78px;
+                color: #0018A8;
+            }
+            
+            .sideBar {
+                position: fixed;
+                min-height: 100vh;
+                width: 13vw;
+                background-color: #0018A8;
+            }
+            
+            .sideBar .bankName {
+                height: 10vh;
+                background: white;
+                padding: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            .sideBar .logo {
+                height: 20vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .sideBar .logo .logoImg {
+                width: 64px;
+                height: 64px;
+            }
+            
+            .sideBar ul {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                list-style: none;
+            }
+            
+            link {
+                width: 100%;
+                text-decoration: none;
+            }
+            
+            ul li a {
+                color: white
+            }
+            
+            .sideBar ul Li,
+            a {
+                width: 100%;
+                height: 7vh;
+                /* background-color: white; */
+                display: flex;
+                justify-content: left;
+                align-items: center;
+                color: white;
+                font-weight: 700;
+                line-height: 24.59px;
+                margin-bottom: 10px;
+                /* font-size: 13px; */
+                padding-left: 11%;
+                transition: all 0.5s;
+                transition-timing-function: ease-in;
+            }
+            
+            .sideBar ul li a:hover {
+                background-color: white;
+                color: #0018A8;
+                cursor: pointer
+            }
+            
+            .sideBar ul Li img {
+                height: 15px;
+            }
+            
+            .logout {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .logout .content_container {
+                position: absolute;
+                bottom: 5vh;
+                width: 70%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: white;
+                padding: 5px 25px;
+                border-radius: 10px;
+                justify-content: space-around;
+            }
+            
+            .logout .content_container:hover {
+                cursor: pointer;
+            }
+            
+            .logout h2 {
+                color: #0018A8;
+                font-size: 15px;
+            }
+            
+            .content {
+                position: absolute;
+                right: 0;
+                height: 100vh;
+                background-color: #f4f3f9;
+                width: 87vw
+            }
+            
+            .content .header {
+                position: fixed;
+                z-index: 1000;
+                height: 10vh;
+                background-color: white;
+                width: 100%;
+                display: flex;
+                justify-content: left;
+                align-items: center;
+            }
+            
+            .content .header img {
+                position: absolute;
+                width: 54px;
+                left: 80%;
+                cursor: pointer;
+                /* right: 0%; */
+                /* top: 100%; */
+            }
+            
+            .content .header ul {
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 30px;
+                cursor: pointer;
+            }
+            
+            .content .header ul li {
+                font-size: 15px;
+                font-weight: 500;
+                line-height: 21.86px;
+                margin: 0px 10px;
+            }
+            
+            .content .header ul li:hover {
+                color: #001ec5
+            }
+            
+            .content .header ul .list_seperator {
+                height: 42px;
+                background-color: #979797;
+                width: 3px
+            }
+            
+            .content .body {
+                position: absolte;
+                min-height: 90vh;
+                margin-top: 10vh;
+                background-color: #f4f3f9;
+                padding: 20px 100px 20px 70px;
+            }
+            
+            .content .body .container {
+                min-height: 80vh;
+            }
+            
+            .content .body .container h2 {
+                padding: 30px 20px 30px 5px;
+                font-size: 20px
+            }
+            
+            .content .body .container .nav_bar {
+                position: relative;
+                width: 100%;
+                height: 70px;
+                background-color: white;
+                min-height: 20px;
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                color: #0018A8;
+                font-size: 15px;
+                padding-left: 20px
+            }
+            
+            .content .body .container .nav_bar span {
+                color: black
+            }
+            
+            .cards {
+                margin-top: 50px;
+                position: relative;
+                min-height: 300px;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            
+            .cards .card {
+                min-height: 300px;
+                background-color: white;
+                width: 63%;
+                border-radius: 30px;
+                display: flex;
+                /* justify-content: center;
+    align-items: center; */
+            }
+            
+            .cards .balance_card {
+                min-height: 460px;
+                /* background-color: white; */
+                display: flex;
+                flex-direction: column;
+                width: 30%;
+                justify-content: space-between;
+            }
+            
+            .cards .balance_card .book_balance,
+            .cards .balance_card .available_balance {
+                height: 200px;
+                width: 100%;
+                background-color: white;
+                border-radius: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .text {
+                text-align: left;
+                /* background-color: red; */
+                width: 40%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .balance {
+                background-color: #0018A8;
+                width: 60%;
+                display: flex;
+                justify-content: center;
+                align-items: left;
+                flex-direction: column;
+                border-bottom-left-radius: 300px;
+                border-top-left-radius: 300px;
+                padding-left: 40px
+            }
+            
+            .card .text .deposite_button {
+                display: flex;
+                justify-content: space-around;
+            }
+            
+            .balance .amount,
+            .balance h3 {
+                color: white;
+                font-size: 20px;
+                font-weight: 300;
+                font-family: 'Inter', sans-serif;
+            }
+            
+            .balance .title {
+                margin-top: 20px;
+            }
+            
+            .balance .amount {
+                line-height: 53.41px;
+                font-size: 60px;
+                font-weight: 800;
+            }
+            
+            .deposite_button {
+                display: flex;
+                width: 75%
+            }
+            
+            .deposite_button .deposit {
+                background-color: #0018A8;
+                color: white;
+                border: none
+            }
+            
+            .deposite_button .transfer {
+                color: #0018A8;
+                border: 1px solid #0018A8;
+                transition: all 0.5s;
+                transition-timing-function: ease-in;
+            }
+            
+            .deposite_button .transfer:hover {
+                background-color: #00169255;
+            }
+            
+            .card .text .deposite_button .deposit,
+            .card .text .deposite_button .transfer {
+                padding: 15px 35px;
+                border-radius: 30px;
+                cursor: pointer;
+            }
+            
+            .book_balance .title,
+            .available_balance .title {
+                font-size: 30px;
+                font-family: 600;
+                font-weight: 600;
+            }
+            
+            .book_balance .amount,
+            .available_balance .amount {
+                margin-top: 10px;
+                color: #0018A8;
+                font-size: 30px;
+                font-weight: 800;
+            }
+            
+            .lineSeperator {
+                margin-top: 30px;
+                position: relative;
+                width: 100%;
+                min-height: 3px;
+                background-color: #979797;
+            }
+            
+            .transaction_details table {
+                width: 100%
+            }
+            
+            td,
+            th {
+                text-align: left;
+                /* padding: 8px; */
+            }
+            
+            tr {
+                background-color: white;
+            }
+            
+            td {
+                font-size: 15px
+            }
+            
+            th {
+                font-weight: 600;
+                font-size: 16px
+            }
+            
+            a {
+                text-decoration: none;
+            }
+            
+            tr td img {
+                width: 45px
+            }
+            
+            .btn {
+                border: none;
+                color: white
+            }
+            
+            .btn_credit {
+                color: #025f01b5;
+                background-color: #0997074b;
+                padding: 10px 20px;
+                border-radius: 5px;
+            }
+            
+            .btn_available {
+                color: #001692;
+                padding: 10px;
+                background-color: #0019a83e;
+                border-radius: 5px;
+            }
+            
+            .amount_cards {
+                display: flex;
+                margin-top: 20px;
+            }
+            
+            .amount_cards .account_availableBalance,
+            .amount_cards .account_bookBalance {
+                background-color: white;
+                padding: 10px;
+                margin: 20px;
+                width: 40%;
+                Height: 18vw;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                border-radius: 20px;
+            }
+            
+            .amount_cards .account_availableBalance .title,
+            .amount_cards .account_bookBalance .title {
+                font-size: 2vw;
+                font-weight: 800;
+            }
+            
+            .amount_cards .account_availableBalance .account_amount,
+            .amount_cards .account_bookBalance .account_amount {
+                font-size: 3vw;
+                font-weight: 800;
+                color: #001692
+            }
+            
+            label {
+                display: block;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 36px;
+                margin: 10px 0px;
+            }
+            
+            input {
+                width: 100%;
+                padding: 10px;
+                border: 2px solid #979797;
+                color: #979797;
+                font-family: 'Manrope', sans-serif;
+            }
+            
+            .payment_section,
+            .transferTable {
+                width: 100%
+            }
+            
+            tr .checkbox {
+                width: 10%;
+                padding: 5px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: none;
+            }
+            
+            tr .coin_img {
+                width: 20%;
+                /* padding: 20px; */
+                text-align: center;
+                /* display: flex;
+                justify-content: center;
+                align-items: center; */
+            }
+            
+            .transferTable {
+                border: 2px solid #979797;
+            }
+            
+            tr .coinName {
+                width: 70%;
+                padding: 20px;
+                font-size: 70%;
+                font-weight: 700;
+            }
+            
+            .submit {
+                margin-top: 30px;
+                border: none;
+                padding: 15px 70px;
+                color: white;
+                background-color: #0018A8;
+                cursor: pointer;
+                transition: all 0.5s;
+                transition-timing-function: ease-in-out;
+            }
+            
+            .submit:hover {
+                padding: 13px 65px;
+                background-color: #00106c;
+            }
+            
+            .transferamount {
+                position: absolute;
+                right: 9vw;
+                top: 13vh
+            }
+            
+            .transferamount .deposite_Balance {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 800;
+                font-size: 4vh;
+                /* line-height: 38px; */
+                color: #001692
+            }
+            
+            .transferamount .title {
+                font-family: 'Mulish', sans-serif;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                /* line-height: 28px; */
+                text-transform: uppercase;
+                color: #000000;
+                opacity: 0.7;
+            }
+            
+            @media screen and (max-width: 1888px) {
+                .sideBar ul Li {
+                    font-size: 15px;
+                }
+                .balance .amount {
+                    font-size: 50px;
+                }
+            }
+            
+            @media screen and (max-width: 1660px) {
+                .balance .amount {
+                    font-size: 45px;
+                }
+            }
+            
+            @media screen and (max-width: 1568px) {
+                .balance .amount {
+                    font-size: 40px;
+                }
+                .card .text .deposite_button .deposit,
+                .card .text .deposite_button .transfer {
+                    padding: 10px 25px;
+                    border-radius: 20px;
+                    cursor: pointer;
+                }
+            }
+            
+            @media screen and (max-width:1498px) {
+                h1 {
+                    font-size: 22px;
+                }
+                .book_balance .title,
+                .available_balance .title {
+                    font-size: 20px;
+                }
+            }
+            
+            @media screen and (max-width: 1428px) {
+                .balance .amount {
+                    font-size: 35px;
+                }
+                .balance .title {
+                    font-size: px;
+                }
+                .card .text .deposite_button .deposit,
+                .card .text .deposite_button .transfer {
+                    padding: 10px 20px;
+                    border-radius: 20px;
+                    cursor: pointer;
+                }
+                .balance h3 {
+                    font-size: 10px;
+                    font-weight: 400;
+                }
+                .balance h3 {
+                    font-size: 15px;
+                }
+                .book_balance .title,
+                .available_balance .title {
+                    font-size: 20px;
+                }
+            }
+            
+            @media screen and (max-width:1386px) {
+                h1 {
+                    font-size: 17px;
+                }
+            }
+            
+            @media screen and (max-width: 1322px) {
+                .content .body .container h2 {
+                    padding: 30px 20px 30px 5px;
+                    font-size: 25px
+                }
+                .cards .card {
+                    min-height: 300px;
+                }
+                .balance .amount {
+                    font-size: 30px;
+                }
+                .book_balance .title,
+                .available_balance .title {
+                    font-size: 20px;
+                }
+                .balance h3 {
+                    font-size: 14px;
+                }
+            }
+            
+            @media screen and (max-width:1320px) {
+                .sideBar ul Li {
+                    font-size: 14px;
+                }
+                .sideBar ul Li img {
+                    height: 14px;
+                }
+                .cards .balance_card .book_balance,
+                .cards .balance_card .available_balance {
+                    height: 180px;
+                }
+                .cards {
+                    margin-top: 50px;
+                    min-height: 300px;
+                }
+                .cards .balance_card {
+                    min-height: 460px;
+                    /* background-color: white; */
+                    display: flex;
+                    flex-direction: column;
+                    width: 30%;
+                    justify-content: space-around;
+                }
+                .content .header ul li {
+                    font-size: 15px;
+                }
+                .content .body {
+                    background-color: #f4f3f9;
+                    padding: 20px 50px 20px 70px;
+                }
+            }
+            
+            @media screen and (max-width:1130px) {
+                h1 {
+                    font-size: 12px;
+                }
+            }
+            
+            @media screen and (max-width:1024px) {
+                h1 {
+                    font-size: 12px;
+                }
+                .sideBar ul Li {
+                    font-size: 12px;
+                    padding-left: 0%;
+                }
+                .sideBar ul Li img {
+                    height: 12px;
+                }
+                .content .body {
+                    background-color: #f4f3f9;
+                    padding: 20px 50px 20px 70px;
+                }
+                .book_balance .amount,
+                .available_balance .amount {
+                    margin-top: 10px;
+                    color: #0018A8;
+                    font-size: 20px;
+                    font-weight: 800;
+                }
+                .deposite_button .deposit,
+                .card .text .deposite_button .transfer {
+                    padding: 8px 10px;
+                    border-radius: 20px;
+                    cursor: pointer;
+                }
+                h2 {
+                    font-size: 10px;
+                }
+                .content .body .container .nav_bar {
+                    font-size: 15px;
+                }
+                .content .header img {
+                    width: 44px;
+                }
+            }
+            
+            @media screen and (max-width:998px) {
+                .sideBar ul Li,
+                a {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding-left: 0%;
+                }
+                .sideBar ul Li span {
+                    display: none;
+                }
+                .sideBar ul Li img {
+                    height: 25px;
+                }
+                .sideBar ul Li {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .logout .content_container img {
+                    height: 25px
+                }
+                .logout .content_container h2 {
+                    display: none;
+                }
+                .content .header img {
+                    width: 54px;
+                }
+                .sideBar .logo .logoImg {
+                    width: 54px;
+                    height: 54px;
+                }
+            }
+            
+            @media screen and (max-width:912px) {
+                h1 {
+                    font-size: 13px;
+                }
+                .logout .content_container img {
+                    height: 25px
+                }
+                .logout .content_container h2 {
+                    display: none;
+                }
+                .content .header img {
+                    width: 54px;
+                }
+                .sideBar .logo .logoImg {
+                    width: 54px;
+                    height: 54px;
+                }
+                .cards {
+                    min-height: 368px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+                .cards .card {
+                    min-height: 400px;
+                    background-color: white;
+                    width: 100%;
+                    border-radius: 30px;
+                    display: flex;
+                    /* justify-content: center;
+    align-items: center; */
+                }
+                .cards .balance_card {
+                    margin-top: 10px;
+                    min-height: 250px;
+                    /* background-color: white; */
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    justify-content: space-between;
+                }
+                .cards .balance_card .book_balance,
+                .cards .balance_card .available_balance {
+                    width: 47%;
+                }
+                .book_balance .title,
+                .available_balance .title {
+                    font-size: 30px;
+                }
+                .balance .amount {
+                    font-size: 40px;
+                }
+            }
+            
+            @media screen and (max-width:820px) {
+                h1 {
+                    font-size: 11px;
+                }
+                .content .header ul li {
+                    font-size: 12px;
+                }
+                .content .header img {
+                    width: 44px;
+                }
+            }
+            
+            @media screen and (max-width:768px) {
+                h1 {
+                    font-size: 10px;
+                }
+                .content .header ul li {
+                    font-size: 11px;
+                }
+                .content .header img {
+                    width: 40px;
+                }
+                .content .header img {
+                    left: 78%
+                }
+                .sideBar ul Li img {
+                    height: 23px
+                }
+                .sideBar .logo .logoImg {
+                    height: 44px;
+                    width: 44px
+                }
+                .cards .card {
+                    min-height: 350px
+                }
+                .balance .amount {
+                    font-size: 35px;
+                }
+                .balance h3 {
+                    font-size: 10px;
+                }
+                .book_balance .title,
+                .available_balance .title {
+                    font-size: 25px;
+                }
+                .content .body {
+                    background-color: #f4f3f9;
+                    padding: 20px 50px 20px 50px;
+                }
+                td,
+                th {
+                    text-align: left;
+                    padding: 8px;
+                }
+                tr {
+                    background-color: white;
+                }
+                th {
+                    font-weight: 600;
+                    font-size: 15px
+                }
+                tr td img {
+                    width: 40px
+                }
+                td {
+                    font-size: 12px;
+                }
+            }
+            
+            @media screen and (max-width:540px) {
+                .transferamount {
+                    position: absolute;
+                    right: 9vw;
+                    top: 15vh
+                }
+                .transferamount .deposite_Balance {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 2vh;
+                    /* line-height: 38px; */
+                    color: #001692
+                }
+                .transferamount .title {
+                    font-family: 'Mulish', sans-serif;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 11px;
+                    /* line-height: 28px; */
+                    text-transform: uppercase;
+                    color: #000000;
+                    opacity: 0.7;
+                }
+                .sideBar .bankName {
+                    display: none;
+                }
+                .sideBar .logo .logoImg {
+                    height: 34px;
+                    width: 34px
+                }
+                .sideBar ul Li img {
+                    height: 13px
+                }
+                .content .header ul li {
+                    display: none
+                }
+                .content .header ul .list_seperator {
+                    display: none
+                }
+                .content .header img {
+                    left: 75%
+                }
+                .logout .content_container img {
+                    height: 15px;
+                }
+                .content .body .container h2 {
+                    padding: 30px 20px 30px 5px;
+                    font-size: 20px;
+                }
+                .content .header img {
+                    width: 30px;
+                }
+                .cards {
+                    min-height: 300px;
+                }
+                .cards .card {
+                    min-height: 200px
+                }
+                .content .body .container .nav_bar {
+                    font-size: 10px;
+                }
+                .balance .amount {
+                    font-size: 20px;
+                }
+                .balance .title {
+                    margin-top: 0px;
+                }
+                .balance h3 {
+                    font-size: 8px;
+                }
+                .cards .balance_card .book_balance,
+                .cards .balance_card .available_balance {
+                    height: 100px;
+                }
+                .book_balance .title,
+                .available_balance .title {
+                    font-size: 15px;
+                }
+                .content .body .container h2 {
+                    font-size: 15px;
+                }
+                .deposite_button {
+                    display: flex;
+                    width: 50%;
+                    font-size: 10px;
+                }
+                .deposite_button .deposit,
+                .card .text .deposite_button .transfer {
+                    padding: 8px 13px;
+                    border-radius: 20px;
+                    cursor: pointer;
+                }
+                td,
+                th {
+                    text-align: left;
+                    padding: 5px;
+                }
+                tr {
+                    background-color: white;
+                }
+                th {
+                    font-weight: 600;
+                    font-size: 13px
+                }
+                tr td img {
+                    width: 30px
+                }
+                td {
+                    font-size: 10px;
+                }
+                .cards .balance_card {
+                    min-height: 100px;
+                }
+                .book_balance .amount,
+                .available_balance .amount {
+                    font-size: 15px;
+                }
+            }
+            
+            @media screen and (max-width:414px) {
+                .transferamount {
+                    position: absolute;
+                    right: 8vw;
+                    top: 9vh
+                }
+                .transferamount .title {
+                    font-size: 10px;
+                }
+                .transferamount .deposite_Balance {
+                    font-size: 20px;
+                }
+                .content .header {
+                    height: 6vh;
+                }
+                .content .body {
+                    margin-top: 4vh;
+                }
+                .content .body .container .nav_bar {
+                    height: 40px
+                }
+                .logout .content_container img {
+                    height: 12px;
+                }
+                .sideBar ul li {
+                    height: 5vh;
+                }
+                .logout .content_container {
+                    bottom: 10vh;
+                    width: 10%;
+                    padding: 5px 20px;
+                }
+                .content .header img {
+                    left: 75%
+                }
+                .cards {
+                    min-height: 100px
+                }
+                .cards .card {
+                    min-height: 150px
+                }
+                .cards .balance_card .book_balance,
+                .cards .balance_card .available_balance {
+                    height: 100px;
+                }
+                .book_balance .title,
+                .available_balance .title {
+                    font-size: 15px;
+                }
+                .cards .balance_card {
+                    margin-top: 10px;
+                    min-height: 200px;
+                    flex-direction: column;
+                    width: 100%;
+                }
+                .cards .balance_card .book_balance,
+                .cards .balance_card .available_balance {
+                    width: 100%;
+                    margin-top: 5px;
+                }
+                .balance .amount {
+                    font-size: 15px;
+                }
+                .balance {
+                    padding-left: 20px;
+                }
+                .content .body {
+                    background-color: #f4f3f9;
+                    padding: 20px 30px 20px 15px;
+                }
+                .content .body .container h2 {
+                    font-size: 14px;
+                }
+                .balance .amount {
+                    line-height: 43.41px;
+                }
+                .book_balance .title,
+                .available_balance .title {
+                    font-size: 15px;
+                }
+                .book_balance .amount,
+                .available_balance .amount {
+                    font-size: 20px;
+                }
+                tr td img {
+                    width: 20px;
+                }
+                .card .text .deposite_button .deposit,
+                .card .text .deposite_button .transfer {
+                    padding: 7px 10px;
+                    border-radius: 20px;
+                }
+                td,
+                th {
+                    text-align: left;
+                    padding: 3px;
+                }
+                tr {
+                    background-color: white;
+                }
+                th {
+                    font-weight: 600;
+                    font-size: 10px
+                }
+                td {
+                    font-size: 8px;
+                }
+            }
+            
+            @media screen and (max-width:393px) {
+                th {
+                    font-weight: 600;
+                    font-size: 8px;
+                    padding: 1px
+                }
+                td {
+                    font-size: 7.5px;
+                }
+            }
+            
+            @media screen and (max-width:370px) {
+                .transferamount {
+                    position: absolute;
+                    right: 8vw;
+                    top: 9vh
+                }
+                .transferamount .deposite_Balance {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 2vh;
+                    /* line-height: 38px; */
+                    color: #001692
+                }
+                .transferamount .title {
+                    font-family: 'Mulish', sans-serif;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 10px;
+                    /* line-height: 28px; */
+                    text-transform: uppercase;
+                    color: #000000;
+                    opacity: 0.7;
+                }
+                th {
+                    font-weight: 600;
+                    font-size: 6px;
+                    padding: 1px
+                }
+                td {
+                    font-size: 6px;
+                }
+            }
+            
+            @media screen and (max-width:280px) {
+                .transferamount {
+                    position: absolute;
+                    right: 9vw;
+                    top: 8vh
+                }
+                .transferamount .deposite_Balance {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 2.5vh;
+                    /* line-height: 38px; */
+                    color: #001692
+                }
+                .transferamount .title {
+                    font-family: 'Mulish', sans-serif;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 10px;
+                    /* line-height: 28px; */
+                    text-transform: uppercase;
+                    color: #000000;
+                    opacity: 0.7;
+                }
+                .sideBar .logo .logoImg {
+                    height: 25px;
+                    width: 25px;
+                }
+                .content .body {
+                    background-color: #f4f3f9;
+                    padding: 10px 2px 20px 10px;
+                }
+                .logout .content_container {
+                    bottom: 10vh;
+                    width: 10%;
+                    padding: 3px 15px;
+                }
+                .cards {
+                    min-height: 80px;
+                }
+                .cards .card {
+                    min-height: 100px;
+                }
+                .balance .amount {
+                    line-height: 33.41px;
+                }
+                .balance .amount {
+                    font-size: 15px;
+                }
+                .balance {
+                    padding-left: 15px;
+                }
+                .content .body .container h2 {
+                    font-size: 10px;
+                }
+                .card .text .deposite_button {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                }
+                .deposite_button {
+                    display: flex;
+                    width: 80%;
+                    font-size: 10px;
+                }
+                .card .text .deposite_button .deposit,
+                .card .text .deposite_button .transfer {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 7px 10px;
+                    border-radius: 20px;
+                }
+                th {
+                    font-weight: 600;
+                    font-size: 5px;
+                    padding: 1px
+                }
+                td {
+                    font-size: 4px;
+                }
+            }

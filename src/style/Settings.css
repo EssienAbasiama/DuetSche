@@ -1,0 +1,41 @@
+.changePassWord {
+    padding: 4px 8px;
+    color: white;
+    background-color: #0018A8;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.authentication {
+    padding: 4px 8px;
+    color: #0018A8;
+    background-color: white;
+    border: 1px solid #0018A8;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.flex {
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-bottom: 3vh
+}
+
+.active {
+    color: #0A9707
+}
+
+.deActivate {
+    background-color: #5BC0DE;
+    color: white;
+    border: none;
+    display: block;
+    padding: 10px 30px;
+    margin-top: 20px;
+}
+
+.deposit_summary {
+    display: none
+}

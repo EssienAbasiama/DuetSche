@@ -1,0 +1,140 @@
+.amount {
+    width: 50%;
+    padding: 8px;
+}
+
+.transfer_amount {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #979797;
+    color: #979797;
+    font-family: 'Manrope', sans-serif;
+}
+
+.deposit_table {
+    margin-top: 5vh;
+    width: 100%
+}
+
+.barCode_container {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.address h3 {
+    font-size: 13px;
+    background-color: white;
+    border: 1px solid #979797;
+    padding: 7px 14px;
+}
+
+.confirmTransfer {
+    display: block;
+}
+
+.copyAddress {
+    width: 100%
+}
+
+.address {
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh
+}
+
+.copytext {
+    background-color: #09970758;
+    border: none;
+    color: #0A9707;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer
+}
+
+.radio {
+    width: 10px;
+}
+
+.alert {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alertDiv {
+    height: 60vh;
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.status {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 48px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    padding: 5px 10px;
+    color: white;
+    font-size: 13px;
+    background-color: #0018A8;
+    width: 50%;
+    text-align: center;
+}
+
+.errorInfo {
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.img {
+    width: 100%;
+}
+
+.image {
+    width: 10vh
+}
+
+.copytext:hover {
+    color: rgba(255, 0, 0, 0.434)
+}
+
+.deposit_summary {
+    position: relative;
+    width: 100%;
+    display: none;
+}
+
+.payment {
+    display: none;
+}
+
+.confirm_Deposite {
+    display: none;
+}
+
+.validated {
+    display: none;
+}
