@@ -963,6 +963,114 @@
                 }
             }
             
+            @media screen and (max-width:425px) {
+                .transferamount {
+                    position: absolute;
+                    right: 8vw;
+                    top: 9vh
+                }
+                .transferamount .title {
+                    font-size: 10px;
+                }
+                .transferamount .deposite_Balance {
+                    font-size: 20px;
+                }
+                .content .header {
+                    height: 6vh;
+                }
+                .content .body {
+                    margin-top: 4vh;
+                }
+                .content .body .container .nav_bar {
+                    height: 40px
+                }
+                .logout .content_container img {
+                    height: 12px;
+                }
+                .sideBar ul li {
+                    height: 5vh;
+                }
+                .logout .content_container {
+                    bottom: 10vh;
+                    width: 10%;
+                    padding: 5px 20px;
+                }
+                .content .header img {
+                    left: 75%
+                }
+                .cards {
+                    min-height: 100px
+                }
+                .cards .card {
+                    min-height: 150px
+                }
+                .cards .balance_card .book_balance,
+                .cards .balance_card .available_balance {
+                    height: 100px;
+                }
+                .book_balance .title,
+                .available_balance .title {
+                    font-size: 15px;
+                }
+                .cards .balance_card {
+                    margin-top: 10px;
+                    min-height: 200px;
+                    flex-direction: column;
+                    width: 100%;
+                }
+                .cards .balance_card .book_balance,
+                .cards .balance_card .available_balance {
+                    width: 100%;
+                    margin-top: 5px;
+                }
+                .balance .amount {
+                    font-size: 15px;
+                }
+                .balance {
+                    padding-left: 20px;
+                }
+                .content .body {
+                    background-color: #f4f3f9;
+                    padding: 20px 30px 20px 15px;
+                }
+                .content .body .container h2 {
+                    font-size: 14px;
+                }
+                .balance .amount {
+                    line-height: 43.41px;
+                }
+                .book_balance .title,
+                .available_balance .title {
+                    font-size: 15px;
+                }
+                .book_balance .amount,
+                .available_balance .amount {
+                    font-size: 20px;
+                }
+                tr td img {
+                    width: 20px;
+                }
+                .card .text .deposite_button .deposit,
+                .card .text .deposite_button .transfer {
+                    padding: 7px 10px;
+                    border-radius: 20px;
+                }
+                td,
+                th {
+                    text-align: left;
+                    padding: 3px;
+                }
+                tr {
+                    background-color: white;
+                }
+                th {
+                    font-weight: 600;
+                    font-size: 10px
+                }
+                td {
+                    font-size: 8px;
+                }
+            }
             @media screen and (max-width:414px) {
                 .transferamount {
                     position: absolute;
