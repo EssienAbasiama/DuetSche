@@ -963,7 +963,7 @@
                 }
             }
             
-            @media screen and (max-width:425px) {
+            @media screen and (max-width:499px) {
                 .transferamount {
                     position: absolute;
                     right: 8vw;
@@ -1071,6 +1071,7 @@
                     font-size: 8px;
                 }
             }
+            
             @media screen and (max-width:414px) {
                 .transferamount {
                     position: absolute;
