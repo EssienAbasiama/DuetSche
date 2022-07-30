@@ -43,7 +43,7 @@ function Transfer() {
         </span>
       </h2>
       <div className="transferamount">
-        <h1 className="deposite_Balance"> €8, 500, 000.00 </h1>
+        <h1 className="deposite_Balance"> €8,500,000.00 </h1>
         <h4 className="title"> AVAILABLE BALANCE </h4>
       </div>
       <div className="nav_bar">
@@ -67,13 +67,12 @@ function Transfer() {
         <select name="currency" className="transfer_amount" id="amount">
           <option value="available">USD</option>
           <option value="available">EUR</option>
-          <option value="available">NGN</option>
         </select>
 
         <label htmlFor="coin">Correspondent Bank</label>
         <input type="text" name="coin" id="coin" required />
 
-        <label htmlFor="coin">Location</label>
+        <label htmlFor="coin">Account Number</label>
         <input type="text" name="coin" id="coin" required />
 
         <button className="submit" onClick={confirmTransfer}>
