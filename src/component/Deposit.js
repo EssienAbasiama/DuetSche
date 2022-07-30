@@ -65,11 +65,11 @@ function Deposit() {
         </span>
       </h2>
       <div className="transferamount">
-        <h1 className="deposite_Balance"> €8, 500, 000.00 </h1>
+        <h1 className="deposite_Balance"> €8,500,000.00 </h1>
         <h4 className="title"> AVAILABLE BALANCE </h4>
       </div>
       <div className="nav_bar">
-        Home & nbsp; / DashBoard &nbsp;/ <span> & nbsp; New Deposit </span>
+        Home &nbsp; / DashBoard &nbsp;/ <span> &nbsp; New Deposit </span>
       </div>
       <form onSubmit={handleSubmit} id="form" className="form">
         <label htmlFor="amount"> Amount in Euro </label>
