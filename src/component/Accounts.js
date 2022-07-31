@@ -30,18 +30,15 @@ function Accounts() {
             <td>
               <img src={avatar} alt="" />
             </td>
-            <td> Banker’ s Acceptance </td> <td>10:10:2008</td>
+            <td> Banker’ s Acceptance </td> <td>11/09/1998</td>
             <td> €8,500,000.00 </td>
             <td>
               <a href="#" class="btn btn_credit">
-                
                 Credit
               </a>
             </td>
             <td>
-              
               <a href="#" class="btn btn_available">
-                
                 Available
               </a>
             </td>
@@ -51,17 +48,14 @@ function Accounts() {
               
               <img src={avatar} alt="" />
             </td>
-            <td> Banker’ s Acceptance </td> <td> 10:10:2008 </td>
-            <td> €8,500,000.00 </td>
+            <td> PENSION DEPOSIT </td> <td> 10/10/2008 </td>
+            <td> €100,000.00 </td>
             <td>
-              
               <a href="#" class="btn btn_credit">
-                
                 Credit
               </a>
             </td>
             <td>
-              
               <a href="#" class="btn btn_available">
                 
                 Available
