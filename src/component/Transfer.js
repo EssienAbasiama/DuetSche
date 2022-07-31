@@ -43,7 +43,7 @@ function Transfer() {
         </span>
       </h2>
       <div className="transferamount">
-        <h1 className="deposite_Balance"> €8,500,000.00 </h1>
+        <h1 className="deposite_Balance"> €8,600,000.00 </h1>
         <h4 className="title"> AVAILABLE BALANCE </h4>
       </div>
       <div className="nav_bar">
@@ -109,10 +109,15 @@ function Transfer() {
             </div>
 
             <h3 className="status">Transaction Failed</h3>
-            <h4 className="errorInfo">Kindly make new deposit before you can make bank transfers.</h4>
-            <Link to="/deposit" className="link">
-              Deposit
-            </Link>
+            <h4 className="errorInfo">
+              Kindly make new deposit before you can make bank transfers.
+              The required minimum deposit has to be 0.50% of the available balance to make the account active.
+            </h4>
+            <div className="depositLink">
+              <Link to="/deposit" className="link">
+                Deposit
+              </Link>
+            </div>
           </div>
         </div>
       </div>

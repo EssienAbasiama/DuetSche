@@ -76,6 +76,7 @@
 }
 
 .alertDiv {
+    padding: 20px;
     height: 60vh;
     width: 400px;
     background-color: white;
@@ -100,7 +101,7 @@
     color: white;
     font-size: 13px;
     background-color: #0018A8;
-    width: 50%;
+    width: 40%;
     text-align: center;
 }
 

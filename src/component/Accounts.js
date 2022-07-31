@@ -12,7 +12,7 @@ function Accounts() {
       <div className="amount_cards">
         <div className="account_availableBalance">
           <h3 className="title">Available Balance</h3>
-          <h3 className="account_amount">€8,500,000.00</h3>
+          <h3 className="account_amount">€8,600,000.00</h3>
         </div>
         <div className="account_bookBalance">
           <h3 className="title">Book Balance</h3>
@@ -31,7 +31,7 @@ function Accounts() {
               <img src={avatar} alt="" />
             </td>
             <td> Banker’ s Acceptance </td> <td>11/09/1998</td>
-            <td> €8,500,000.00 </td>
+            <td> €8,600,000.00 </td>
             <td>
               <a href="#" class="btn btn_credit">
                 Credit

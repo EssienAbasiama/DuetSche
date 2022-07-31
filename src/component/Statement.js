@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react'
+import React from "react";
 import avatar from "./../images/AVATAR.png";
 import "./../style/Statement.css";
 
@@ -11,7 +11,9 @@ function Statement() {
       <h2>Download Statement</h2>
       <div className="transferamount">
         <h2 className="deposite_Balance">
-          <a href={pdf} download >Download PDF</a>
+          <a href={pdf} download>
+            Download PDF
+          </a>
         </h2>
       </div>
       <div className="nav_bar">
@@ -25,44 +27,34 @@ function Statement() {
           </tr>
           <tr>
             <td>
-              
               <img src={avatar} alt="" />
             </td>
             <td> Banker’ s Acceptance </td> <td> 11/09/1998 </td>
-            <td> €8,500,000.00 </td>
+            <td> €8,600,000.00 </td>
             <td>
-              
               <a href="#" class="btn btn_credit">
-                
                 Credit
               </a>
             </td>
             <td>
-              
               <a href="#" class="btn btn_available">
-                
                 Available
               </a>
             </td>
           </tr>
           <tr>
             <td>
-              
               <img src={avatar} alt="" />
             </td>
             <td> PENSION DEPOSIT </td> <td> 10/10/2008 </td>
             <td> €100,000.00 </td>
             <td>
-              
               <a href="#" class="btn btn_credit">
-                
                 Credit
               </a>
             </td>
             <td>
-              
               <a href="#" class="btn btn_available">
-                
                 Available
               </a>
             </td>
@@ -73,4 +65,4 @@ function Statement() {
   );
 }
 
-export default Statement
+export default Statement;

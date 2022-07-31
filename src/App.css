@@ -60,6 +60,14 @@
                 color: white
             }
             
+            .depositLink {
+                margin-top: 3vh;
+                width: 100%;
+                justify-content: center;
+                display: flex;
+                align-items: center;
+            }
+            
             .sideBar ul Li,
             a {
                 width: 100%;
