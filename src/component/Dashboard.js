@@ -19,7 +19,7 @@ function Dashboard() {
             </div>
           </div>
           <div className="balance">
-            <h3 className="amount"> €8,500,000.00 </h3>
+            <h3 className="amount"> €8,600,000.00 </h3>
             <h3 className="title"> ACCOUNT BALANCE </h3>
           </div>
         </div>
@@ -30,7 +30,7 @@ function Dashboard() {
           </div>
           <div className="available_balance">
             <h3 className="title"> Available Balance </h3>
-            <h3 className="amount"> €8,500,000.00 </h3>
+            <h3 className="amount"> €8,600,000.00 </h3>
           </div>
         </div>
       </div>
@@ -46,7 +46,7 @@ function Dashboard() {
               <img src={avatar} alt="" />
             </td>
             <td> Banker’ s Acceptance </td> <td> 11/09/1998 </td>
-            <td> €8,500,000.00 </td>
+            <td> €8,600,000.00 </td>
             <td>
               <a href="#" className="btn btn_credit">
                 Credit
