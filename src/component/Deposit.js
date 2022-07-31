@@ -2,7 +2,7 @@ import React from "react";
 import "./../style/Deposit.css";
 import bitcoin from "./../images/bitcoin.png";
 import address from "./../images/image 7.png";
-import ethereum from "./../images/ethereum.png";
+// import ethereum from "./../images/ethereum.png";
 import { useState } from "react";
 
 function Deposit() {
@@ -65,14 +65,14 @@ function Deposit() {
         </span>
       </h2>
       <div className="transferamount">
-        <h1 className="deposite_Balance"> €8,500,000.00 </h1>
-        <h4 className="title"> AVAILABLE BALANCE </h4>
+        <h1 className="deposite_Balance">€8,500,000.00</h1>
+        <h4 className="title">AVAILABLE BALANCE</h4>
       </div>
       <div className="nav_bar">
-        Home &nbsp; / DashBoard &nbsp;/ <span> &nbsp; New Deposit </span>
+        Home &nbsp; / DashBoard &nbsp;/ <span> &nbsp; New Deposit</span>
       </div>
       <form onSubmit={handleSubmit} id="form" className="form">
-        <label htmlFor="amount"> Amount in Euro </label>
+        <label htmlFor="amount">Amount in Euro</label>
         <input
           type="number"
           name="amount"
@@ -99,23 +99,6 @@ function Deposit() {
                 <img src={bitcoin} alt="bitcoin" />
               </td>
               <td className="coinName"> Bitcoin </td>
-            </tr>
-            <tr>
-              <td className="checkBox">
-                <input
-                  type="radio"
-                  className="field"
-                  name="name"
-                  value="Ethereum"
-                  onChange={handleChange}
-                />
-              </td>
-              <td className="coin_img">
-                <div>
-                  <img src={ethereum} alt="ethereum" />
-                </div>
-              </td>
-              <td className="coinName"> Ethereum </td>
             </tr>
           </table>
         </div>
@@ -147,7 +130,7 @@ function Deposit() {
           directly with your Bitcoin wallet
         </div>
         <div id="address" className="address">
-          <h3> 1 BxkaNiC7aJy2VMBfUzPEMmr5Jb9romdfG </h3>
+          <h3>bc1q98evdaju3vmqh8f3yqf7lvrm8x9xqq0pf6zeee</h3>
         </div>
         <div className="copyAddress">
           <button className="copytext" onClick={copyText}>
@@ -157,7 +140,9 @@ function Deposit() {
         <table className="deposit_table">
           <tr>
             <td className="amount"> Payment Address </td>
-            <td className="amount"> 1 BxkaNiC7aJy2VMBfUzPEMmr5Jb9romdfG </td>
+            <td className="amount">
+              bc1q98evdaju3vmqh8f3yqf7lvrm8x9xqq0pf6zeee
+            </td>
           </tr>
           <tr>
             <td className="amount"> Payment Amount </td>

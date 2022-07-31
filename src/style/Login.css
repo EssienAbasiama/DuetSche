@@ -1,0 +1,226 @@
+ @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Poppins&family=Roboto&family=Roboto+Slab:wght@300;400;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Manrope:wght@500;600;700;800&family=Poppins&family=Roboto&family=Roboto+Slab:wght@300;400;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Manrope:wght@500;600;700;800&family=Mulish:wght@700&family=Poppins&family=Roboto&family=Roboto+Slab:wght@300;400;700&display=swap');
+ .head {
+     height: 10vh;
+     background-color: white;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 0px 10vw;
+ }
+ 
+ .footer {
+     height: 10vh;
+     background-color: white;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 0px 10vw;
+ }
+ 
+ .policy {
+     font-family: 'Manrope';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 22px;
+     color: #5BC0DE;
+ }
+ 
+ .input {
+     width: 100%;
+     padding: 10px 5px;
+     border: none;
+     border-bottom: 2px solid black;
+     outline: none;
+     /* margin-top: 2vh; */
+ }
+ 
+ .input:focus {
+     border: none;
+     border-bottom: 5px solid black;
+     /* margin-top: 2vh; */
+ }
+ 
+ .label {
+     margin-top: 5px;
+ }
+ 
+ .name {
+     font-family: 'Manrope';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 24px;
+     line-height: 33px;
+     /* identical to box height */
+     letter-spacing: -0.04em;
+     color: #0018A8;
+ }
+ 
+ .checkBoxTick {
+     width: 20px;
+     padding-right: 20px;
+ }
+ 
+ .logo {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .unknown {
+     width: 44px
+ }
+ 
+ .Loginbody {
+     height: max-content;
+     background-color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .backgroundImage {
+     background-image: url(../images/image\ 9.png);
+     background-size: cover;
+     width: 60vw;
+     height: 80vh;
+     padding: 3vh 2vw;
+     display: flex;
+     align-items: center;
+ }
+ 
+ .login {
+     width: 350px;
+     height: max-content;
+     background-color: white;
+     padding: 5vh 15px 10px 15px;
+ }
+ 
+ .checkBox {
+     display: flex;
+     margin-top: 5vh;
+     margin-bottom: 5vh;
+     justify-content: space-between;
+     align-items: center;
+ }
+ 
+ .button {
+     padding: 7px 20px;
+     background-color: #0018A8;
+     color: white;
+     font-size: 13px;
+     border: none;
+     cursor: pointer;
+ }
+ 
+ .unknown {
+     width: 76px;
+     height: 39px;
+ }
+ 
+ label {
+     display: block;
+     font-family: 'Manrope';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 13px;
+     line-height: 22px;
+     /* identical to box height */
+     letter-spacing: -0.02em;
+     color: #0018A8;
+ }
+ 
+ .flex {
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .loginLogohad {
+     width: 54px;
+ }
+ 
+ .note {
+     font-family: 'Manrope';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 12px;
+     line-height: 16px;
+     letter-spacing: -0.02em;
+     margin-top: 2vh;
+ }
+ 
+ .forgotPassword {
+     font-family: 'Manrope';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 13px;
+     line-height: 22px;
+     /* identical to box height */
+     letter-spacing: -0.02em;
+     color: #0018A8;
+ }
+ 
+ .spacebetween {
+     margin-top: 3vh;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ 
+ .error {
+     font-size: 13px;
+     color: red
+ }
+ 
+ @media screen and (max-width:627px) {
+     .backgroundImage {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+ }
+ 
+ @media screen and (max-width:590px) {
+     .backgroundImage {
+         width: 100%;
+     }
+     .name {
+         font-size: 20px;
+     }
+     .loginLogohad {
+         width: 44px;
+     }
+ }
+ 
+ @media screen and (max-width:507px) {
+     .name {
+         font-size: 17px;
+     }
+     .policy {
+         font-size: 13px;
+     }
+ }
+ 
+ @media screen and (max-width:507px) {
+     .name {
+         font-size: 15px;
+     }
+     .policy {
+         font-size: 10px;
+     }
+     .note {
+         font-size: 11px;
+     }
+ }
+ 
+ @media screen and (max-width:280px) {
+     .name {
+         font-size: 10px;
+     }
+     .policy {
+         font-size: 8px;
+     }
+ }

@@ -28,7 +28,7 @@ function Statement() {
               
               <img src={avatar} alt="" />
             </td>
-            <td> Banker’ s Acceptance </td> <td> 07/07/2022 </td>
+            <td> Banker’ s Acceptance </td> <td> 10:10:2008 </td>
             <td> €8,500,000.00 </td>
             <td>
               
@@ -50,7 +50,7 @@ function Statement() {
               
               <img src={avatar} alt="" />
             </td>
-            <td> Banker’ s Acceptance </td> <td> 07/07/2022 </td>
+            <td> Banker’ s Acceptance </td> <td> 10:10:2008 </td>
             <td> €8,500,000.00 </td>
             <td>
               
