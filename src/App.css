@@ -510,7 +510,7 @@
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 800;
-                font-size: 4vh;
+                font-size: 3vh;
                 /* line-height: 38px; */
                 color: #001692
             }
@@ -1151,7 +1151,7 @@
                     padding: 20px 30px 20px 15px;
                 }
                 .content .body .container h2 {
-                    font-size: 14px;
+                    font-size: 12px;
                 }
                 .balance .amount {
                     line-height: 43.41px;
@@ -1244,7 +1244,7 @@
                     font-family: 'Inter';
                     font-style: normal;
                     font-weight: 800;
-                    font-size: 2.5vh;
+                    /* font-size: 2.5vh; */
                     /* line-height: 38px; */
                     color: #001692
                 }
