@@ -69,9 +69,9 @@
             }
             
             .sideBar ul Li,
-            a {
+            li a {
                 width: 100%;
-                height: 7vh;
+                height: 5vh;
                 /* background-color: white; */
                 display: flex;
                 justify-content: left;
@@ -120,7 +120,7 @@
                 cursor: pointer;
             }
             
-            .logout h2 {
+            .logout a {
                 color: #0018A8;
                 font-size: 15px;
             }

@@ -21,46 +21,53 @@ function SideBar() {
       <ul>
         <li>
           <Link to="/overview">
-            <img src={overview} alt="" />&nbsp; &nbsp; <span> Overview </span>
+            <img src={overview} alt="" />
+            &nbsp; &nbsp; <span> Overview </span>
           </Link>
         </li>
         <li>
           <Link to="/account">
-            <img src={account} alt="" />&nbsp; &nbsp; <span> Accounts </span>
+            <img src={account} alt="" />
+            &nbsp; &nbsp; <span> Accounts </span>
           </Link>
         </li>
         <li>
           <Link to="/transfer">
-            <img src={transfer} alt="" />&nbsp; &nbsp; <span> Transfer </span>
+            <img src={transfer} alt="" />
+            &nbsp; &nbsp; <span> Transfer </span>
           </Link>
         </li>
         <li>
           <Link to="/deposit">
-            <img src={transfer} alt="" />&nbsp; &nbsp; <span> Deposit </span>
+            <img src={transfer} alt="" />
+            &nbsp; &nbsp; <span> Deposit </span>
           </Link>
         </li>
         <li>
           <Link to="/statement">
-            <img src={statement} alt="" />&nbsp; &nbsp;
+            <img src={statement} alt="" />
+            &nbsp; &nbsp;
             <span> Statement </span>
           </Link>
         </li>
         <li>
           <Link to="/transaction">
-            <img src={transactions} alt="" />&nbsp; &nbsp;
+            <img src={transactions} alt="" />
+            &nbsp; &nbsp;
             <span> Transactions </span>
           </Link>
         </li>
         <li>
           <Link to="/settings">
-            <img src={settings} alt="" />&nbsp; &nbsp; <span> Settings </span>
+            <img src={settings} alt="" />
+            &nbsp; &nbsp; <span> Settings </span>
           </Link>
         </li>
       </ul>
       <div className="logout">
         <div className="content_container">
           <img src={logout} alt="" />
-          <h2> LogOut </h2>
+          <a className="logout" href='./'>LogOut</a>
         </div>
       </div>
     </div>

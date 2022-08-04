@@ -13,7 +13,7 @@ import "./../App.css";
 
 function HomePage() {
   return (
-     <Router>
+    <Router>
       <div className="App">
         <SideBar />
         <div className="content">
@@ -38,6 +38,9 @@ function HomePage() {
           <div className="body">
             <Switch>
               <Route exact path="/">
+                <Dashboard />
+              </Route>
+              <Route exact path="/login">
                 <Dashboard />
               </Route>
               <Route exact path="/overview">
@@ -66,7 +69,7 @@ function HomePage() {
         </div>
       </div>
     </Router>
-  )
+  );
 }
 
 export default HomePage
