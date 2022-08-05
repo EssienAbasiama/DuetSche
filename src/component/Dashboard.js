@@ -46,7 +46,7 @@ function Dashboard() {
               <img src={avatar} alt="" />
             </td>
             <td> Banker’ s Acceptance </td> <td> 11/09/1998 </td>
-            <td> €8,600,000.00 </td>
+            <td> €8,500,000.00 </td>
             <td>
               <a href="#" className="btn btn_credit">
                 Credit
