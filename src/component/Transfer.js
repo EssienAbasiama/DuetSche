@@ -38,7 +38,7 @@ function Transfer() {
         <span className="payment" id="payment_h2">
           Add Account Number
         </span>
-        <span className="confirm_Deposit" id="confirm_Deposite_h2">
+        <span className="confirm_Deposite" id="confirm_Deposit_h2">
           Error
         </span>
       </h2>

@@ -3,7 +3,6 @@ import React from "react";
 import avatar from "./../images/AVATAR.png";
 
 function Dashboard() {
-  
   return (
     <div className="container">
       <h2> Good Morning Tobias Pickett </h2>

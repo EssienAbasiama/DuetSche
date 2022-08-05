@@ -13,7 +13,7 @@ function SideBar() {
   return (
     <div className="sideBar">
       <div className="bankName">
-        <h1> DuetSche Bank </h1>
+        <h1>Deutsche Bank </h1>
       </div>
       <div className="logo">
         <img src={logoImg} className="logoImg" alt="" />
