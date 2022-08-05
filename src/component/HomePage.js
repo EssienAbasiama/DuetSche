@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import SideBar from "./SideBar";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -19,19 +20,19 @@ function HomePage() {
         <div className="content">
           <div className="header">
             <ul>
-              <li>Media</li>
+              <li><a  className="a" href='#'>Media</a></li>
               <div className="list_seperator"></div>
-              <li>Career</li>
+              <li><a  className="a" href='#'>Career</a></li>
               <div className="list_seperator"></div>
-              <li>Investors Relation</li>
+              <li><a  className="a" href='#'>Investors Relation</a></li>
               <div className="list_seperator"></div>
-              <li>Research</li>
+              <li><a  className="a" href='#'>Research</a></li>
               <div className="list_seperator"></div>
-              <li>#Positiveimpact</li>
+              <li><a  className="a" href='#'>#Positiveimpact</a></li>
               <div className="list_seperator"></div>
-              <li>Responsibility</li>
+              <li><a  className="a" href='#'>Responsibility</a></li>
               <div className="list_seperator"></div>
-              <li>Contact</li>
+              <li><a  className="a" href='#'>Contact</a></li>
             </ul>
             <img src={headerLogo} alt="hekko" />
           </div>

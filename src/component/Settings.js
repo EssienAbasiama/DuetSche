@@ -21,12 +21,12 @@ function Settings() {
         <div className="authentication">2FA Authentication</div>
       </div>
       <form id="form" className="form">
-        <label htmlFor="amount"> Old PassWord</label>
+        <label htmlFor="amount"> Old Password</label>
         <input type="text" name="amount" id="amount" required />
-        <label htmlFor="amount"> New PassWord</label>
+        <label htmlFor="amount"> New Password</label>
         <input type="text" name="amount" id="amount" required />
 
-        <label htmlFor="amount"> Confirm PassWord</label>
+        <label htmlFor="amount"> Confirm Password</label>
         <input type="text" name="amount" id="amount" required />
         <button type="button" className="submit" id="submit" onClick={nextPage}>
           Submit

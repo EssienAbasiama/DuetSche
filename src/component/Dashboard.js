@@ -1,8 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import avatar from "./../images/AVATAR.png";
-
+import { Link } from "react-router-dom";
 function Dashboard() {
+  
+   function depositClick() {
+     window.alert("PLEASE VISIT YOUR BANK TO MAKE CASH DEPOSIT");
+   }
   return (
     <div className="container">
       <h2> Good Morning Tobias Pickett </h2>
@@ -14,8 +18,12 @@ function Dashboard() {
           <div className="text">
             <h2> Total Balance </h2>
             <div className="deposite_button">
-              <div className="deposit"> Deposit </div>
-              <div className="transfer"> Transfer </div>
+              <Link to="" className="deposit" onClick={depositClick}>
+                Deposit
+              </Link>
+              <Link to="/transfer" className="transfer">
+                Transfer
+              </Link>
             </div>
           </div>
           <div className="balance">
