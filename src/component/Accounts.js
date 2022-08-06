@@ -5,7 +5,7 @@ import avatar from "./../images/AVATAR.png";
 function Accounts() {
   return (
     <div class="container">
-      <h2> Good Morning Tobias Pickett </h2>
+      <h2> Welcome Tobias Pickett </h2>
       <div class="nav_bar">
         Home &nbsp; / DashBoard &nbsp;/ <span> &nbsp; Dashboards </span>
       </div>
