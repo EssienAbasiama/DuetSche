@@ -19,7 +19,7 @@ function HomePage() {
         <SideBar />
         <div className="content">
           <div className="header">
-            <ul>
+            {/* <ul>
               <li><a  className="a" href='#'>Media</a></li>
               <div className="list_seperator"></div>
               <li><a  className="a" href='#'>Career</a></li>
@@ -33,7 +33,7 @@ function HomePage() {
               <li><a  className="a" href='#'>Responsibility</a></li>
               <div className="list_seperator"></div>
               <li><a  className="a" href='#'>Contact</a></li>
-            </ul>
+            </ul> */}
             <img src={headerLogo} alt="hekko" />
           </div>
           <div className="body">
