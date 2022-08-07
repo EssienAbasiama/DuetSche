@@ -57,7 +57,6 @@ function Accounts() {
             </td>
             <td>
               <a href="#" class="btn btn_available">
-                
                 Available
               </a>
             </td>
