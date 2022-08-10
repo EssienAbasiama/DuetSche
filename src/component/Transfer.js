@@ -72,7 +72,7 @@ function Transfer() {
         <label htmlFor="coin">Correspondent Bank</label>
         <input type="text" name="coin" id="coin" required />
 
-        <label htmlFor="coin">Account Number</label>
+        <label htmlFor="coin">IBAN & BIC</label>
         <input type="text" name="coin" id="coin" required />
 
         <button className="submit" onClick={confirmTransfer}>
