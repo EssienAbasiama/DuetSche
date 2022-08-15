@@ -80,7 +80,7 @@ function Transfer() {
         </button>
       </div>
       <div className="payment" id="payment">
-        <label htmlFor="coin">SWIFT Code</label>
+        <label htmlFor="coin">BIC</label>
         <input type="text" name="coin" id="coin" min="1" required />
         <label htmlFor="coin">Account Number</label>
         <input type="number" name="coin" id="coin" min="1" required />
